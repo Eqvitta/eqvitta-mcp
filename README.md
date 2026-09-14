@@ -32,7 +32,7 @@ Add the server to your `claude_desktop_config.json`:
   "mcpServers": {
     "eqvitta": {
       "command": "npx",
-      "args": ["-y", "eqvitta-mcp"],
+      "args": ["-y", "github:Eqvitta/eqvitta-mcp"],
       "env": {
         "EQVITTA_API_KEY": "YOUR_EQVITTA_API_KEY_HERE"
       }
