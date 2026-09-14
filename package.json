@@ -23,14 +23,14 @@
     "india-gst",
     "eqvitta"
   ],
-  "author": "Samrat Shukla <samrat@eqvitta.com>",
+  "author": "Eqvitta <support@eqvitta.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Samratshukla/eqvitta-mcp.git"
+    "url": "git+https://github.com/Eqvitta/eqvitta-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/Samratshukla/eqvitta-mcp/issues"
+    "url": "https://github.com/Eqvitta/eqvitta-mcp/issues"
   },
   "homepage": "https://eqvitta.com",
   "engines": {
