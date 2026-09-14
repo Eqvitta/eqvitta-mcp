@@ -1,11 +1,12 @@
 {
   "name": "eqvitta-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "mcpName": "io.github.Eqvitta/eqvitta-mcp",
   "description": "Official Model Context Protocol (MCP) server for Eqvitta Cloud Accounting & GST Billing. Seamlessly manage ledgers, generate GST-compliant invoices, track stock, and generate financial reports directly in Claude.",
   "type": "commonjs",
   "main": "bin/cli.js",
   "bin": {
-    "eqvitta-mcp": "./bin/cli.js"
+    "eqvitta-mcp": "bin/cli.js"
   },
   "scripts": {
     "start": "node bin/cli.js"
