@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Eqvitta/eqvitta-mcp",
+  "description": "Eqvitta MCP: GST billing, ledgers, invoices, stock and financial reports for Claude.",
+  "repository": {
+    "url": "https://github.com/Eqvitta/eqvitta-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "eqvitta-mcp",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "EQVITTA_API_KEY",
+          "description": "Your Eqvitta API key (generated in Eqvitta Settings > API Keys)",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
