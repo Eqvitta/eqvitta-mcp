@@ -1,0 +1,24 @@
+# Smithery configuration for Eqvitta MCP Server
+# https://smithery.ai/docs/config
+
+name: eqvitta-mcp
+description: Official Model Context Protocol (MCP) server for Eqvitta Cloud Accounting & GST Billing.
+version: 1.0.0
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      apiKey:
+        type: string
+        description: Your Eqvitta API key (generated in Eqvitta Settings > API Keys)
+    required:
+      - apiKey
+  command: node
+  args:
+    - bin/cli.js
+    - --api-key
+    - ${config.apiKey}
+  env:
+    EQVITTA_API_KEY: ${config.apiKey}
